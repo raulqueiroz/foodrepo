@@ -1,8 +1,5 @@
 package com.algaworks.algafood.api.controller;
 
-import static com.algaworks.algafood.domain.infrastructure.repository.spec.RestauranteSpecs.comFreteGrais;
-import static com.algaworks.algafood.domain.infrastructure.repository.spec.RestauranteSpecs.comNomeSemelhante;
-
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
@@ -23,7 +20,7 @@ public class TesteController {
 	
 	@Autowired
 	private CozinhaRepository cozinhaRepository;
-	
+		
 	@Autowired
 	private RestauranteRepository restauranteRepository;
 	
